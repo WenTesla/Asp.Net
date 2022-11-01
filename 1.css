@@ -1,0 +1,33 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://tvax1.sinaimg.cn/large/bfe05ea9ly1fxhberfckmj21hc0u0wm7') no-repeat;
+    /*      background-size: 100% 130%;*/
+}
+
+#navigate {
+    height: 60px; /* 导航栏的高度  */
+    text-align: center; /* 设置DIV容器内的文字居中 */
+    /* 设置DIV容器的背景颜色 */
+}
+
+#navigateUl li {
+    list-style-type: none; /* 设置列表样式为无 */
+    display: inline; /* 设置列表的li横向展示 */
+}
+
+    #navigateUl li a {
+        font-size: 15px; /* 字体大小 */
+        line-height: 60px; /* 实现垂直平衡选中的文字块的行高,选择跟导航栏高度一致即可 */
+        text-decoration: none; /* 去掉连接下划线  */
+        padding: 17px 50px; /* 内边距,上下 左右 */
+        color: brown; /* 字体颜色 */
+        font-weight: bold; /* 字体加粗 */
+    }
+
+        #navigateUl li a:hover {
+            background-color: #d8d8d8; /* 鼠标选中的文字块的颜色 */
+        }
